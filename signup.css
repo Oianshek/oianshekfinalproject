@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    z-index: 2;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    background-color: #730606;
+    width: 100%;
+    position: absolute;
+}
+@media (max-width: 480px){
+    #media{ font-size: 13px; }
+}
